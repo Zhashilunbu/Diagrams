@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T08:03:48.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="VWMhjZxO2Li-hVKcnt_5" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T08:06:19.409Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="NRDLmZ87vUf_t03NfFIB" version="20.2.2" type="github">
   <diagram id="leb6aF-NO6GbtpsrgxT7" name="第 1 页">
     <mxGraphModel dx="1178" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,11 +97,8 @@
         <mxCell id="sJNDQpNuShKHyW9Kirum-34" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="56.5" y="191" width="17" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="sJNDQpNuShKHyW9Kirum-35" value="Account" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="20" y="257.5" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="sJNDQpNuShKHyW9Kirum-36" value="&lt;h1&gt;Open Topic&lt;/h1&gt;&lt;p&gt;1. Account should based on customer wise or game wise?&lt;/p&gt;&lt;p&gt;2. After registration of customer, deposit shoud be mandatory, Since costs are required during the NFT miniting process.&amp;nbsp;&lt;/p&gt;&lt;p&gt;3. Who should responsible for customer&#39;s Game management&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="254" y="10" width="380" height="160" as="geometry" />
+        <mxCell id="sJNDQpNuShKHyW9Kirum-36" value="&lt;h1&gt;Open Topic&lt;/h1&gt;&lt;p&gt;1. Account should based on customer wise or game wise?&lt;/p&gt;&lt;p&gt;&amp;nbsp;--&amp;gt; no need to create account for admin, since the NFT gas fee have to be paied by Mastmask.&lt;/p&gt;&lt;p&gt;2. After registration of customer, deposit shoud be mandatory, Since costs are required during the NFT miniting process.&amp;nbsp;&lt;/p&gt;&lt;p&gt;--&amp;gt; Pay by Mastmask&lt;/p&gt;&lt;p&gt;3. Who should responsible for customer&#39;s Game management&amp;nbsp;&lt;/p&gt;&lt;p&gt;--&amp;gt; Owner of NFT will be the admin&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="10" width="527" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
