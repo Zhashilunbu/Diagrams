@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T07:29:25.624Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="nX2GP3gs3iTuywzCInjk" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T08:03:48.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="VWMhjZxO2Li-hVKcnt_5" version="20.2.2" type="github">
   <diagram id="leb6aF-NO6GbtpsrgxT7" name="第 1 页">
-    <mxGraphModel dx="1718" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
         <mxCell id="sJNDQpNuShKHyW9Kirum-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="sJNDQpNuShKHyW9Kirum-7" target="sJNDQpNuShKHyW9Kirum-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sJNDQpNuShKHyW9Kirum-7" value="Game1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sJNDQpNuShKHyW9Kirum-7" value="Li Ren" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="481" y="237.5" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sJNDQpNuShKHyW9Kirum-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sJNDQpNuShKHyW9Kirum-12" target="sJNDQpNuShKHyW9Kirum-25">
@@ -48,13 +48,8 @@
         </mxCell>
         <mxCell id="sJNDQpNuShKHyW9Kirum-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sJNDQpNuShKHyW9Kirum-22" target="sJNDQpNuShKHyW9Kirum-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="369.12" y="282.06000000000006" as="sourcePoint" />
-            <mxPoint x="387" y="387.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sJNDQpNuShKHyW9Kirum-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sJNDQpNuShKHyW9Kirum-22" target="sJNDQpNuShKHyW9Kirum-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="367" y="292.5" as="sourcePoint" />
+            <mxPoint x="336" y="276.5" as="sourcePoint" />
+            <mxPoint x="403" y="404" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sJNDQpNuShKHyW9Kirum-15" value="NFT 1" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -70,21 +65,10 @@
           <mxGeometry x="697" y="247.5" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sJNDQpNuShKHyW9Kirum-19" value="Admin 1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="254" y="229.5" width="17" height="38" as="geometry" />
+          <mxGeometry x="300" y="273" width="17" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="sJNDQpNuShKHyW9Kirum-20" value="Admin 2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="254" y="305.5" width="17" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="sJNDQpNuShKHyW9Kirum-21" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="sJNDQpNuShKHyW9Kirum-22" target="sJNDQpNuShKHyW9Kirum-23">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="387" y="207.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sJNDQpNuShKHyW9Kirum-22" value="Cusetomer" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="sJNDQpNuShKHyW9Kirum-22" value="Company" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="352" y="267.5" width="70" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="sJNDQpNuShKHyW9Kirum-23" value="Account" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="327" y="197.5" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sJNDQpNuShKHyW9Kirum-24" value="NFT 5" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="697" y="292.5" width="70" height="20" as="geometry" />
@@ -97,15 +81,6 @@
         </mxCell>
         <mxCell id="sJNDQpNuShKHyW9Kirum-27" value="NFT 8" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="667" y="352.5" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="sJNDQpNuShKHyW9Kirum-28" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF3333;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sJNDQpNuShKHyW9Kirum-7" target="sJNDQpNuShKHyW9Kirum-29">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="541" y="167.5" as="targetPoint" />
-            <mxPoint x="541" y="227.5" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sJNDQpNuShKHyW9Kirum-29" value="Account" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="481" y="177.5" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sJNDQpNuShKHyW9Kirum-30" value="NFT Category" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="20" y="120" width="90" height="20" as="geometry" />
@@ -123,7 +98,7 @@
           <mxGeometry x="56.5" y="191" width="17" height="38" as="geometry" />
         </mxCell>
         <mxCell id="sJNDQpNuShKHyW9Kirum-35" value="Account" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="20" y="265" width="90" height="20" as="geometry" />
+          <mxGeometry x="20" y="257.5" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sJNDQpNuShKHyW9Kirum-36" value="&lt;h1&gt;Open Topic&lt;/h1&gt;&lt;p&gt;1. Account should based on customer wise or game wise?&lt;/p&gt;&lt;p&gt;2. After registration of customer, deposit shoud be mandatory, Since costs are required during the NFT miniting process.&amp;nbsp;&lt;/p&gt;&lt;p&gt;3. Who should responsible for customer&#39;s Game management&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="254" y="10" width="380" height="160" as="geometry" />
