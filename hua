@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T13:04:26.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-pzqcYuV2IM_n5_XnXZw" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T13:06:35.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="mMoAoaIstWCanDYaanTH" version="20.2.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="4382" dy="3519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4890" dy="3855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -298,7 +298,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-1" value="平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="830" width="120" height="50" as="geometry" />
+          <mxGeometry x="120" y="820" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lHb9pQbQX5xPM6-wf7yx-2" target="lHb9pQbQX5xPM6-wf7yx-9">
           <mxGeometry relative="1" as="geometry" />
@@ -311,59 +311,59 @@
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lHb9pQbQX5xPM6-wf7yx-2" target="lHb9pQbQX5xPM6-wf7yx-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-300" y="940" as="sourcePoint" />
+            <mxPoint x="-20" y="930" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-2" value="总画室1&lt;br&gt;（总画室长）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="920" width="120" height="30" as="geometry" />
+          <mxGeometry x="-20" y="910" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-3" value="总画室2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="920" width="120" height="30" as="geometry" />
+          <mxGeometry x="120" y="910" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-4" value="总画室n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="920" width="120" height="30" as="geometry" />
+          <mxGeometry x="250" y="910" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-9" value="画室1.1&lt;br&gt;（画室长）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="980" width="63" height="30" as="geometry" />
+          <mxGeometry x="-20" y="970" width="63" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-10" value="画室1.2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="1100" width="63" height="30" as="geometry" />
+          <mxGeometry x="-20" y="1090" width="63" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-11" value="画室1.3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="1200" width="63" height="30" as="geometry" />
+          <mxGeometry x="-20" y="1190" width="63" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-12" value="画室1.4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="1300" width="63" height="30" as="geometry" />
+          <mxGeometry x="-20" y="1290" width="63" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-17" value="张三" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="980" width="20" height="30" as="geometry" />
+          <mxGeometry x="70" y="970" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-26" value="李四" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="991" width="20" height="30" as="geometry" />
+          <mxGeometry x="80" y="981" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-27" value="王五" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="1002" width="20" height="30" as="geometry" />
+          <mxGeometry x="90" y="992" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-28" value="马六" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="1013" width="20" height="30" as="geometry" />
+          <mxGeometry x="100" y="1003" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-29" value="朱七" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="1024" width="20" height="30" as="geometry" />
+          <mxGeometry x="110" y="1014" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-30" value="牛八" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="1035" width="20" height="30" as="geometry" />
+          <mxGeometry x="120" y="1025" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-31" value="..." style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="1046" width="20" height="30" as="geometry" />
+          <mxGeometry x="130" y="1036" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lHb9pQbQX5xPM6-wf7yx-32" target="lHb9pQbQX5xPM6-wf7yx-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-32" value="画室1.1&lt;br&gt;（画室长）&lt;br&gt;微信群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-451.5" y="860.5" width="63" height="50" as="geometry" />
+          <mxGeometry x="-171.5" y="850.5" width="63" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lHb9pQbQX5xPM6-wf7yx-33" value="张三&lt;br&gt;李四&lt;br&gt;王五&lt;br&gt;马六&lt;br&gt;朱七&lt;br&gt;牛八&lt;br&gt;一一&lt;br&gt;二二&lt;br&gt;三三&lt;br&gt;四四&lt;br&gt;...&lt;br&gt;400" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-480" y="940.5" width="120" height="189" as="geometry" />
+          <mxGeometry x="-200" y="930.5" width="120" height="189" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
