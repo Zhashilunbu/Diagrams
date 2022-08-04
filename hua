@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T08:42:24.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="i8tPn6E8LqbLDkhztHFq" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T09:24:38.044Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="tM7M2-dxA8MrPprHGpNj" version="20.2.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="3955" dy="2873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2391" dy="2089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -237,7 +237,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xn25MjlOj_EdNIQIml7Y-284" value="&lt;h1&gt;8. 确认上架:&lt;/h1&gt;&lt;div&gt;1.&amp;nbsp; 画室长在收到上架订单后,并确认收到上架费用后,确认该画上架, 进行下一轮的销售.上架后该画的价格会自动上调4%, 即3120. 第二天,该画将以该价格进行出售.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 收到上架费用后,画室长将该画放入次日的销售中.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="650" width="320" height="140" as="geometry" />
+          <mxGeometry x="1000" y="630" width="320" height="140" as="geometry" />
         </mxCell>
         <mxCell id="xn25MjlOj_EdNIQIml7Y-285" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xn25MjlOj_EdNIQIml7Y-156" target="xn25MjlOj_EdNIQIml7Y-284" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -245,8 +245,8 @@
             <mxPoint x="1340" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-287" value="&lt;h1&gt;9. 完:&lt;/h1&gt;&lt;div&gt;1.&amp;nbsp; 在次日的销售中, 前日的画会按照新的价格进行销售,从而获利.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 张三的画, 次日会按照3120的价格进行销售,&lt;/div&gt;&lt;div&gt;张三一次获利45.&lt;/div&gt;&lt;div&gt;李四推荐人获利15&lt;/div&gt;&lt;div&gt;总画室长36&lt;/div&gt;&lt;div&gt;手续费24&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="507" y="610" width="320" height="200" as="geometry" />
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-287" value="&lt;h1&gt;9. 上报:&lt;/h1&gt;&lt;div&gt;1.&amp;nbsp; 画室长将当日的上架费汇总，兑换成U，然后转固定的地址。&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;Q: 画室长的钱最后是在微信上，他是将微信上的钱在交易所换成U的还是线下换成U的。如果是线下换U是找谁？如何保证交易安全？&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;Q: 各个画室长的佣金是从平台体现还是说是线下转U。&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="507" y="610" width="320" height="170" as="geometry" />
         </mxCell>
         <mxCell id="xn25MjlOj_EdNIQIml7Y-288" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="xn25MjlOj_EdNIQIml7Y-287" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -271,21 +271,21 @@
         <mxCell id="xn25MjlOj_EdNIQIml7Y-296" value="手续费: 3000 * 0.8 % = 24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" parent="xn25MjlOj_EdNIQIml7Y-293" vertex="1">
           <mxGeometry y="120" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-x5DFgwXy6IfydosrlLv-1" value="各画室长提成" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;fontSize=10;fontColor=#FF3333;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="-x5DFgwXy6IfydosrlLv-1" value="各画室长提成" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;fontSize=10;fontColor=#FF3333;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="250" y="790" width="210" height="150" as="geometry">
             <mxRectangle x="200" y="680" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-x5DFgwXy6IfydosrlLv-2" value="&lt; 10w 0.05%" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" vertex="1" parent="-x5DFgwXy6IfydosrlLv-1">
+        <mxCell id="-x5DFgwXy6IfydosrlLv-2" value="&lt; 10w 0.05%" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" parent="-x5DFgwXy6IfydosrlLv-1" vertex="1">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-x5DFgwXy6IfydosrlLv-3" value="&lt; 30w 0.06%" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" vertex="1" parent="-x5DFgwXy6IfydosrlLv-1">
+        <mxCell id="-x5DFgwXy6IfydosrlLv-3" value="&lt; 30w 0.06%" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" parent="-x5DFgwXy6IfydosrlLv-1" vertex="1">
           <mxGeometry y="60" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-x5DFgwXy6IfydosrlLv-4" value="&lt; 60w 0.07%" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" vertex="1" parent="-x5DFgwXy6IfydosrlLv-1">
+        <mxCell id="-x5DFgwXy6IfydosrlLv-4" value="&lt; 60w 0.07%" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" parent="-x5DFgwXy6IfydosrlLv-1" vertex="1">
           <mxGeometry y="90" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-x5DFgwXy6IfydosrlLv-5" value="&lt; 90w 0.08%" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" vertex="1" parent="-x5DFgwXy6IfydosrlLv-1">
+        <mxCell id="-x5DFgwXy6IfydosrlLv-5" value="&lt; 90w 0.08%" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" parent="-x5DFgwXy6IfydosrlLv-1" vertex="1">
           <mxGeometry y="120" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
