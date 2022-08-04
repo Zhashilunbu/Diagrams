@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T06:16:20.687Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="_wJ2mp7RLti-fyi-iM7S" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T06:20:39.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fsVYFHyjYsH4egqvO13h" version="20.2.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2545" dy="2152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -349,13 +349,28 @@
           <mxGeometry x="1240" y="640" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xn25MjlOj_EdNIQIml7Y-263" value="&lt;h1&gt;预约：&lt;/h1&gt;&lt;div&gt;1. 每个用户通过kyc注册登录，一个用户一个账号，一个账号一天只能预约一个画室。&lt;/div&gt;&lt;div&gt;2. 预约的时候选择价格区间，有三个价格区间可供选择：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2K&amp;lt;=x &amp;lt;= 3K，3K&amp;lt; x &amp;lt;= 6K, x &amp;gt; 6K&lt;/div&gt;&lt;div&gt;3, 点击每个价格区间,系统提示是否可以预约(后台预约逻辑为人数不能多与画数,保证能预约的人都有画.)&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="-80" width="320" height="140" as="geometry" />
+          <mxGeometry x="-130" y="-140" width="320" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="dNxyNK7c78bLwvsdeMH5-24" target="xn25MjlOj_EdNIQIml7Y-263">
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="dNxyNK7c78bLwvsdeMH5-24" target="xn25MjlOj_EdNIQIml7Y-263">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-270" value="&lt;h1&gt;分配：&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;1. 每个画室每天有10w的配额,需要按照这个额度去分配画&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;2. 分配方式是由画室长来决定的,例如,他会选择:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2K&amp;lt;=x &amp;lt;= 3K: 20张&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 3K&amp;lt; x &amp;lt;= 6K : 10张&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; x &amp;gt; 6K&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; :&amp;nbsp; 2张&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;3. 开售时间也是画室长提出来,&lt;/div&gt;&lt;div&gt;4. 后台得到该画室的预约时间,开盘时间,和配额后,进行配置&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="-120" width="320" height="200" as="geometry" />
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-270" value="&lt;h1&gt;分配：&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;1. 每个画室每天有10w的配额,需要按照这个额度去分配画&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;2. 分配方式是由画室长来决定的,例如,他会选择:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2K&amp;lt;=x &amp;lt;= 3K: 20张&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 3K&amp;lt; x &amp;lt;= 6K : 10张&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; x &amp;gt; 6K&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; :&amp;nbsp; 2张&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;3. 开售时间也是画室长提出来,&lt;/div&gt;&lt;div&gt;4. 后台得到该画室的预约时间,开盘时间,和配额后,进行配置&lt;/div&gt;&lt;div&gt;5. 在开始预约后,系统根据预约人的金额和数量进行分配.&lt;/div&gt;&lt;div&gt;6. 多出来的画和流拍的, 会在半小时后进行抢&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-380" width="350" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-271" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="dNxyNK7c78bLwvsdeMH5-26" target="xn25MjlOj_EdNIQIml7Y-270">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="160" as="sourcePoint" />
+            <mxPoint x="40" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-272" value="&lt;h1&gt;付款：&lt;/h1&gt;&lt;div&gt;1. 每个用户通过kyc注册登录，一个用户一个账号，一个账号一天只能预约一个画室。&lt;/div&gt;&lt;div&gt;2. 预约的时候选择价格区间，有三个价格区间可供选择：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2K&amp;lt;=x &amp;lt;= 3K，3K&amp;lt; x &amp;lt;= 6K, x &amp;gt; 6K&lt;/div&gt;&lt;div&gt;3, 点击每个价格区间,系统提示是否可以预约(后台预约逻辑为人数不能多与画数,保证能预约的人都有画.)&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-140" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xn25MjlOj_EdNIQIml7Y-11" target="xn25MjlOj_EdNIQIml7Y-272">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="447" y="250" as="sourcePoint" />
+            <mxPoint x="270" y="-169.99999999999977" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
