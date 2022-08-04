@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T08:06:41.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="wEAbI-RMB2QH3AgrlXhm" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T08:40:24.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="zB1X6D8IVQq9jn5vlANY" version="20.2.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2889" dy="2315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3955" dy="2873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -203,7 +203,7 @@
         <mxCell id="xn25MjlOj_EdNIQIml7Y-275" value="&lt;h1&gt;1.创建：&lt;/h1&gt;&lt;div&gt;每个画室都有一个画室长, 他需要规定以下事宜:&lt;/div&gt;&lt;div&gt;1.画室几点预约:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;画室长自己约定,然后通知后台?还是可以在自己的客户端设置.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2.几点开盘:&lt;/div&gt;画室长自己约定, 然后通知后台?还是可以在自己的客户端设置.&lt;div&gt;3.多少张画: 每个画室每天有10w的配额, 画室次日开售的画的金额不能高于这个价格, 画室的画的价格是有等级, 画室长需要根据10w的配额去分配每个等级的画需要多少张,&lt;/div&gt;&lt;div&gt;同样的问题,这个是后台帮忙设置还是画室长设置?&amp;nbsp;&lt;/div&gt;&lt;div&gt;画的等级有以下几个, 比如画室长安排明天的开盘按照以下配发:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2K&amp;lt;=x &amp;lt;= 3K: 20张&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 3K&amp;lt; x &amp;lt;= 6K : 10张&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; x &amp;gt; 6K&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; :&amp;nbsp; 2张&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-330" y="390" width="350" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dNxyNK7c78bLwvsdeMH5-23" target="xn25MjlOj_EdNIQIml7Y-275" edge="1">
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dNxyNK7c78bLwvsdeMH5-23" target="xn25MjlOj_EdNIQIml7Y-275" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="260" y="160" as="sourcePoint" />
             <mxPoint x="40" y="60" as="targetPoint" />
@@ -254,7 +254,7 @@
             <mxPoint x="890" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-293" value="分成%" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;fontSize=10;fontColor=#FF3333;strokeColor=default;" parent="1" vertex="1">
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-293" value="总提分成%" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;fontSize=10;fontColor=#FF3333;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="250" y="620" width="210" height="150" as="geometry">
             <mxRectangle x="200" y="680" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -269,6 +269,23 @@
           <mxGeometry y="90" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xn25MjlOj_EdNIQIml7Y-296" value="手续费: 3000 * 0.8 % = 24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" parent="xn25MjlOj_EdNIQIml7Y-293" vertex="1">
+          <mxGeometry y="120" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-x5DFgwXy6IfydosrlLv-1" value="各画室长提成" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;fontSize=10;fontColor=#FF3333;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="250" y="790" width="210" height="150" as="geometry">
+            <mxRectangle x="200" y="680" width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-x5DFgwXy6IfydosrlLv-2" value="&lt; 10w 0.05%" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" vertex="1" parent="-x5DFgwXy6IfydosrlLv-1">
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-x5DFgwXy6IfydosrlLv-3" value="&lt; 30w 0.06%" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" vertex="1" parent="-x5DFgwXy6IfydosrlLv-1">
+          <mxGeometry y="60" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-x5DFgwXy6IfydosrlLv-4" value="&lt; 60w 0.07%" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" vertex="1" parent="-x5DFgwXy6IfydosrlLv-1">
+          <mxGeometry y="90" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-x5DFgwXy6IfydosrlLv-5" value="&lt; 90w 0.08%" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" vertex="1" parent="-x5DFgwXy6IfydosrlLv-1">
           <mxGeometry y="120" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
