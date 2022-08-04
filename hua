@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T09:24:38.044Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="tM7M2-dxA8MrPprHGpNj" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T09:45:37.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kQIW4E4etpCGH32baCl9" version="20.2.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2391" dy="2089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2889" dy="2349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -176,14 +176,14 @@
         <mxCell id="xn25MjlOj_EdNIQIml7Y-151" value="完成付款" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
           <mxGeometry x="1240" y="50" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-263" value="&lt;h1&gt;2. 预约：&lt;/h1&gt;&lt;div&gt;1. 每个用户通过kyc注册登录，一个用户一个账号，一个账号一天只能预约一个画室。&lt;/div&gt;&lt;div&gt;2. 预约的时候选择价格区间，有三个价格区间可供选择：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2K&amp;lt;=x &amp;lt;= 3K，3K&amp;lt; x &amp;lt;= 6K, x &amp;gt; 6K&lt;/div&gt;&lt;div&gt;3, 点击每个价格区间,系统提示是否可以预约(后台预约逻辑为人数不能多与画数,保证能预约的人都有画.)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 张三根据朋友李四的介绍,进入了一个画室, 然后在早上六点他预约成功了3k价位的一个名额.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="-340" y="130" width="320" height="200" as="geometry" />
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-263" value="&lt;h1&gt;2. 预约：&lt;/h1&gt;&lt;div&gt;1. 每个用户通过kyc注册登录，一个用户一个账号，一个账号一天只能预约一个画室，该画室是由推荐人建群拉进来的。&lt;/div&gt;&lt;div&gt;2. 预约的时候选择价格区间，有三个价格区间可供选择：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2K&amp;lt;=x &amp;lt;= 3K，3K&amp;lt; x &amp;lt;= 6K, x &amp;gt; 6K&lt;/div&gt;&lt;div&gt;3, 点击每个价格区间,系统提示是否可以预约(后台预约逻辑为人数不能多与画数,保证能预约的人都有画.)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 张三根据朋友李四的介绍,进入了一个画室，加入了群，然后在群里观察了几天，发现每天都有很多人抢到画并且有入账, 然后有一天在早上六点他决定一次，并成功预约了3k价位的一个名额.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="-340" y="130" width="320" height="240" as="geometry" />
         </mxCell>
         <mxCell id="xn25MjlOj_EdNIQIml7Y-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="dNxyNK7c78bLwvsdeMH5-24" target="xn25MjlOj_EdNIQIml7Y-263" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-270" value="&lt;h1&gt;3.分配：&lt;/h1&gt;&lt;div&gt;&lt;div&gt;1. 预约完成后,系统根据预约的人数以及金额,开始分配画,&lt;/div&gt;&lt;div&gt;2. 多出来的画和流拍的, 会在半小时后进行抢&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 张三按照预约分配到了一副3K的画&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="-220" y="-140" width="350" height="130" as="geometry" />
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-270" value="&lt;h1&gt;3.分配：&lt;/h1&gt;&lt;div&gt;&lt;div&gt;1. 预约完成后,系统根据预约的人数以及金额, 开始分配画, 所有的画都是电子版本的。&lt;/div&gt;&lt;div&gt;2. 如果按照配额，有多出来的画，或者在开售的时候有流拍的, 会开盘后的半小时后进行抢&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 张三按照预约分配到了一副3K的画&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="-220" y="-140" width="350" height="160" as="geometry" />
         </mxCell>
         <mxCell id="xn25MjlOj_EdNIQIml7Y-271" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="dNxyNK7c78bLwvsdeMH5-26" target="xn25MjlOj_EdNIQIml7Y-270" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -191,8 +191,8 @@
             <mxPoint x="40" y="10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-272" value="&lt;h1&gt;4.付款：&lt;/h1&gt;&lt;div&gt;1. 每个用户在开盘时间登录系统后, 在待付款列表中可以看到自己被分配的画.&lt;/div&gt;&lt;div&gt;2. 需要拷贝付款人信息进行线下付款.&lt;/div&gt;&lt;div&gt;3. 付款后点击确认付款, 等待画的owner确认.&lt;/div&gt;&lt;div&gt;4. 确认后,该画就进入您自己的待上架列表中.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 张三在开盘后,登录系统,在待付款列表中看到自己收到的3K的画,然后他通过查看卖家的收款信息,线下通过yh转账. 转账成功后点击已付款,&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="-210" width="320" height="190" as="geometry" />
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-272" value="&lt;h1&gt;4.付款：&lt;/h1&gt;&lt;div&gt;1. 每个用户在开盘时间登录系统后, 在待付款列表中可以看到自己被分配的画.&lt;/div&gt;&lt;div&gt;2. 需要拷贝付款人信息进行线下银行转账付款.&lt;/div&gt;&lt;div&gt;3. 付款后点击确认付款, 等待owner确认.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 张三在开盘后,登录系统,在待付款列表中看到自己收到的3K的画,然后他通过查看卖家的收款信息,线下通过yh转账. 转账成功后点击已付款,通知卖家已付款&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="254" y="-210" width="320" height="190" as="geometry" />
         </mxCell>
         <mxCell id="xn25MjlOj_EdNIQIml7Y-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="xn25MjlOj_EdNIQIml7Y-11" target="xn25MjlOj_EdNIQIml7Y-272" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -200,8 +200,8 @@
             <mxPoint x="270" y="-169.99999999999977" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-275" value="&lt;h1&gt;1.创建：&lt;/h1&gt;&lt;div&gt;每个画室都有一个画室长, 他需要规定以下事宜:&lt;/div&gt;&lt;div&gt;1.画室几点预约:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;画室长自己约定,然后通知后台?还是可以在自己的客户端设置.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2.几点开盘:&lt;/div&gt;画室长自己约定, 然后通知后台?还是可以在自己的客户端设置.&lt;div&gt;3.多少张画: 每个画室每天有10w的配额, 画室次日开售的画的金额不能高于这个价格, 画室的画的价格是有等级, 画室长需要根据10w的配额去分配每个等级的画需要多少张,&lt;/div&gt;&lt;div&gt;同样的问题,这个是后台帮忙设置还是画室长设置?&amp;nbsp;&lt;/div&gt;&lt;div&gt;画的等级有以下几个, 比如画室长安排明天的开盘按照以下配发:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2K&amp;lt;=x &amp;lt;= 3K: 20张&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 3K&amp;lt; x &amp;lt;= 6K : 10张&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; x &amp;gt; 6K&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; :&amp;nbsp; 2张&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="-330" y="390" width="350" height="250" as="geometry" />
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-275" value="&lt;h1&gt;1.创建：&lt;/h1&gt;&lt;div&gt;每个画室都有一个画室长, 他需要规定以下事宜:&lt;/div&gt;&lt;div&gt;1.画室几点预约:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;font color=&quot;#ff3333&quot;&gt; 画室长自己约定,然后通知后台?还是可以在自己的客户端设置&lt;/font&gt;.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2.几点开盘:&lt;/div&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#ff3333&quot;&gt;画室长自己约定, 然后通知后台?还是可以在自己的客户端设置.&lt;/font&gt;&lt;div&gt;3.多少张画:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 每个画室每天有10w的配额, 画室次日开售的画的金额不能高于这个价格, 画室的画的价格是有等级, 画室长需要根据10w的配额去分配每个等级的画需要多少张,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#ff3333&quot;&gt;同样的问题,这个是后台帮忙设置还是画室长设置?&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;画的等级有以下几个,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例：比如画室长安排明天的开盘按照以下配发:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2K&amp;lt;=x &amp;lt;= 3K: 20张&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 3K&amp;lt; x &amp;lt;= 6K : 10张&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; x &amp;gt; 6K&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; :&amp;nbsp; 2张&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="-340" y="390" width="320" height="300" as="geometry" />
         </mxCell>
         <mxCell id="xn25MjlOj_EdNIQIml7Y-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dNxyNK7c78bLwvsdeMH5-23" target="xn25MjlOj_EdNIQIml7Y-275" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -209,17 +209,17 @@
             <mxPoint x="40" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-278" value="&lt;h1&gt;5. 收款：&lt;/h1&gt;&lt;div&gt;1. 画的owner需要登录系统,在代收款列表中查看订单是否已经付款,如果客户已经付款,需要自己确认以下资金是否到账,确认到账后,点击确认收款&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="700" y="-182.5" width="320" height="132.5" as="geometry" />
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-278" value="&lt;h1&gt;5. 收款：&lt;/h1&gt;&lt;div&gt;1. 画的owner登录系统,在“待收款”列表中查看昨天的画是否已经售出，并且订单是否已经付款,如果客户已经付款,需要自己确认一下资金是否到账,确认到账后,点击确认收款。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例；张三购买了一副3k的画，这幅画是赵六的，赵六登录系统，在待付款列表中查看订单，发现张三已经付款，他随即打开自己的银行APP进行查看是否到账，确认到账了，就返回系统，点击已收款&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="-182.5" width="320" height="172.5" as="geometry" />
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-279" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="xn25MjlOj_EdNIQIml7Y-115" target="xn25MjlOj_EdNIQIml7Y-278" edge="1">
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-279" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="xn25MjlOj_EdNIQIml7Y-115" target="xn25MjlOj_EdNIQIml7Y-278" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="590" y="160" as="sourcePoint" />
             <mxPoint x="630" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-280" value="&lt;h1&gt;6.转移所有权：&lt;/h1&gt;&lt;div&gt;1. 收到画的owner确认后,系统将改画转移到当前用户名下,并添加到待上架列表中,表明该用户已经拥有该画,并可以出售了.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 系统收到客户确认后,将画从原先的所有者,转到张三待上架列表中.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="-210" width="320" height="160" as="geometry" />
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-280" value="&lt;h1&gt;6.转移所有权：&lt;/h1&gt;&lt;div&gt;1. 收到画的owner确认后,系统将改画转移到当前用户名下,并添加到待上架列表中,表明该用户已经拥有该画,并可以出售了.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 系统收到赵六确认后,将画从赵六转到张三名下,并且添加到张三待上架列表中.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="-195" width="320" height="160" as="geometry" />
         </mxCell>
         <mxCell id="xn25MjlOj_EdNIQIml7Y-281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="xn25MjlOj_EdNIQIml7Y-134" target="xn25MjlOj_EdNIQIml7Y-280" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -227,8 +227,8 @@
             <mxPoint x="560" y="-10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-282" value="&lt;h1&gt;7.上架：&lt;/h1&gt;&lt;div&gt;1. 在待上架列表中的画, 用户需要支付2.5%的上架费才能进行销售, 客户需要付款给画室长, 画室长在收到上架订单后,并确认收到上架费用后,确认该画上架,进行下一轮的销售.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 张三的确认支付后,在等待收款方确认后,打开待上架列表,就看到了自己买的画, 此时他需要支付该画费用2.5%进行上架销售. 例如他的画是3K, ,他需要支付75元进行上架.上架费的支付是通过快团团进行的,微信付款.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;这个地方是不是在快团团开通一个商户,进行收款, 每天需要统计各个用户的上架费,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="1550" y="140" width="320" height="270" as="geometry" />
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-282" value="&lt;h1&gt;7.上架：&lt;/h1&gt;&lt;div&gt;1. 在待上架列表中的画, 用户需要支付2.5%（推荐人0.50，总画室长1.20%，手续费0.80%）的上架费才能进行销售, 客户需要付款给画室长, 画室长在收到上架订单后,并确认收到上架费用后,确认该画上架,进行下一轮的销售.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 张三的确认支付后,在等待收款方确认后,打开待上架列表,就看到了自己买的画, 此时他需要支付该画费用2.5%进行上架销售. 例如他的画是3K, ,他需要支付75元进行上架.上架费的支付是通过快团团进行的,微信付款. 一下是2.5%的费用构成：&lt;/div&gt;&lt;div&gt;&lt;div&gt;推荐人: 3000*0.50%=15&lt;/div&gt;&lt;div&gt;总画室长: 3000*1.20%=36,&amp;nbsp;&lt;/div&gt;&lt;div&gt;手续费：3000*0.80%=24&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;这个地方是不是在快团团开通一个商户,进行收款, 每天需要统计各个用户的上架费,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="140" width="320" height="310" as="geometry" />
         </mxCell>
         <mxCell id="xn25MjlOj_EdNIQIml7Y-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="xn25MjlOj_EdNIQIml7Y-140" target="xn25MjlOj_EdNIQIml7Y-282" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -236,8 +236,8 @@
             <mxPoint x="940" y="-20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-284" value="&lt;h1&gt;8. 确认上架:&lt;/h1&gt;&lt;div&gt;1.&amp;nbsp; 画室长在收到上架订单后,并确认收到上架费用后,确认该画上架, 进行下一轮的销售.上架后该画的价格会自动上调4%, 即3120. 第二天,该画将以该价格进行出售.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 收到上架费用后,画室长将该画放入次日的销售中.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="630" width="320" height="140" as="geometry" />
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-284" value="&lt;h1&gt;8. 确认上架:&lt;/h1&gt;&lt;div&gt;1.&amp;nbsp; 画室长在收到上架订单后,并确认收到上架费用后,确认该画上架,&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;&lt;/div&gt;上架后的画，进行下一轮的销售.上架后该画的价格会自动上调4%, 即3120. 第二天,该画将以该价格进行出售.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 收到上架费用后,画室长将该画放入次日的销售中.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;Q:画的价格在不停的网上涨，经过粗略估算一张2K的画在经过100次的迭代后，会达到10W。这种情况如何处理。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="630" width="320" height="240" as="geometry" />
         </mxCell>
         <mxCell id="xn25MjlOj_EdNIQIml7Y-285" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xn25MjlOj_EdNIQIml7Y-156" target="xn25MjlOj_EdNIQIml7Y-284" edge="1">
           <mxGeometry relative="1" as="geometry">
