@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T07:15:03.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="sVsl5WcOfnVVd--vHVfb" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T07:15:55.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="_tSCntXN8kSS6QH5sgAL" version="20.2.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="3417" dy="2644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4971" dy="3529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -176,7 +176,7 @@
         <mxCell id="xn25MjlOj_EdNIQIml7Y-151" value="完成付款" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
           <mxGeometry x="1240" y="50" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-263" value="&lt;h1&gt;2. 预约：&lt;/h1&gt;&lt;div&gt;1. 每个用户通过kyc注册登录，一个用户一个账号，一个账号一天只能预约一个画室。&lt;/div&gt;&lt;div&gt;2. 预约的时候选择价格区间，有三个价格区间可供选择：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2K&amp;lt;=x &amp;lt;= 3K，3K&amp;lt; x &amp;lt;= 6K, x &amp;gt; 6K&lt;/div&gt;&lt;div&gt;3, 点击每个价格区间,系统提示是否可以预约(后台预约逻辑为人数不能多与画数,保证能预约的人都有画.)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 张三根据介绍,进入了一个画室, 然后在早上六点他预约成功了3k价位的一个名额.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-263" value="&lt;h1&gt;2. 预约：&lt;/h1&gt;&lt;div&gt;1. 每个用户通过kyc注册登录，一个用户一个账号，一个账号一天只能预约一个画室。&lt;/div&gt;&lt;div&gt;2. 预约的时候选择价格区间，有三个价格区间可供选择：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2K&amp;lt;=x &amp;lt;= 3K，3K&amp;lt; x &amp;lt;= 6K, x &amp;gt; 6K&lt;/div&gt;&lt;div&gt;3, 点击每个价格区间,系统提示是否可以预约(后台预约逻辑为人数不能多与画数,保证能预约的人都有画.)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 张三根据朋友李四的介绍,进入了一个画室, 然后在早上六点他预约成功了3k价位的一个名额.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-340" y="130" width="320" height="200" as="geometry" />
         </mxCell>
         <mxCell id="xn25MjlOj_EdNIQIml7Y-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="dNxyNK7c78bLwvsdeMH5-24" target="xn25MjlOj_EdNIQIml7Y-263">
@@ -259,10 +259,10 @@
             <mxRectangle x="200" y="680" width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-294" value="个人: 3000 * 1.5% = 45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" vertex="1" parent="xn25MjlOj_EdNIQIml7Y-293">
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-294" value="张三个人: 3000 * 1.5% = 45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" vertex="1" parent="xn25MjlOj_EdNIQIml7Y-293">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xn25MjlOj_EdNIQIml7Y-295" value="推荐人: 3000 * 0.5% = 15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" vertex="1" parent="xn25MjlOj_EdNIQIml7Y-293">
+        <mxCell id="xn25MjlOj_EdNIQIml7Y-295" value="李四 推荐人: 3000 * 0.5% = 15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" vertex="1" parent="xn25MjlOj_EdNIQIml7Y-293">
           <mxGeometry y="60" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xn25MjlOj_EdNIQIml7Y-298" value="总画室张: 3000 * 1.2% = 36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" vertex="1" parent="xn25MjlOj_EdNIQIml7Y-293">
