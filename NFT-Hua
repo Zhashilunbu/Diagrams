@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T06:25:23.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="XDkkmCdeT0AVzSF-9y7R" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-05T06:30:23.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="maxKH0hhFr5Xb98ZaGdv" version="20.2.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2077" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,11 +35,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7ar3YXtHpGxqHtWNOovm-8" value="预约" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="7ar3YXtHpGxqHtWNOovm-3">
+        <mxCell id="7ar3YXtHpGxqHtWNOovm-8" value="Appointment" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="7ar3YXtHpGxqHtWNOovm-3">
           <mxGeometry x="90" y="30" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7ar3YXtHpGxqHtWNOovm-9" value="等待开盘" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="7ar3YXtHpGxqHtWNOovm-3">
-          <mxGeometry x="274" y="30" width="80" height="30" as="geometry" />
+        <mxCell id="7ar3YXtHpGxqHtWNOovm-9" value="Freezing of account&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="7ar3YXtHpGxqHtWNOovm-3">
+          <mxGeometry x="310" y="30" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7ar3YXtHpGxqHtWNOovm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="7ar3YXtHpGxqHtWNOovm-3" source="7ar3YXtHpGxqHtWNOovm-12" target="7ar3YXtHpGxqHtWNOovm-8">
           <mxGeometry relative="1" as="geometry" />
@@ -49,8 +49,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7ar3YXtHpGxqHtWNOovm-12" value="成功" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="7ar3YXtHpGxqHtWNOovm-3">
-          <mxGeometry x="195" y="25" width="40" height="40" as="geometry" />
+        <mxCell id="7ar3YXtHpGxqHtWNOovm-12" value="Succeed?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="7ar3YXtHpGxqHtWNOovm-3">
+          <mxGeometry x="195" y="25" width="65" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7ar3YXtHpGxqHtWNOovm-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;" edge="1" parent="7ar3YXtHpGxqHtWNOovm-3" source="7ar3YXtHpGxqHtWNOovm-8" target="7ar3YXtHpGxqHtWNOovm-12">
           <mxGeometry relative="1" as="geometry">
@@ -62,10 +62,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7ar3YXtHpGxqHtWNOovm-15" value="待收款列表" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="7ar3YXtHpGxqHtWNOovm-3">
-          <mxGeometry x="400" y="30" width="80" height="30" as="geometry" />
+          <mxGeometry x="430" y="30" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7ar3YXtHpGxqHtWNOovm-16" value="付款" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="7ar3YXtHpGxqHtWNOovm-3">
-          <mxGeometry x="520" y="30" width="80" height="30" as="geometry" />
+          <mxGeometry x="540" y="30" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7ar3YXtHpGxqHtWNOovm-17" value="点击已付款" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="7ar3YXtHpGxqHtWNOovm-3">
           <mxGeometry x="640" y="30" width="80" height="30" as="geometry" />
@@ -92,10 +92,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7ar3YXtHpGxqHtWNOovm-25" value="分画" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="7ar3YXtHpGxqHtWNOovm-23">
-          <mxGeometry x="277" y="30" width="80" height="30" as="geometry" />
+          <mxGeometry x="310" y="30" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7ar3YXtHpGxqHtWNOovm-26" value="开盘" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="7ar3YXtHpGxqHtWNOovm-23">
-          <mxGeometry x="400" y="30" width="80" height="30" as="geometry" />
+          <mxGeometry x="460" y="30" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7ar3YXtHpGxqHtWNOovm-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="7ar3YXtHpGxqHtWNOovm-23" source="7ar3YXtHpGxqHtWNOovm-28" target="7ar3YXtHpGxqHtWNOovm-29">
           <mxGeometry relative="1" as="geometry" />
@@ -188,7 +188,7 @@
             <mxPoint x="40" y="10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7ar3YXtHpGxqHtWNOovm-54" value="&lt;h1&gt;4.Payment：&lt;/h1&gt;&lt;div&gt;1. After logging into the system at the opening time, each user can see his assigned drawing in the &quot;Pending Payment List&quot;.&lt;/div&gt;&lt;div&gt;2. Click to open the order and complete the transfer in the system according to the payee information.&amp;nbsp;&lt;/div&gt;&lt;div&gt;3. 付款后点击确认付款, 等待owner确认.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例: 张三在开盘后,登录系统,在待付款列表中看到自己收到的3K的画,然后他通过查看卖家的收款信息,线下通过yh转账. 转账成功后点击已付款,通知卖家已付款&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="7ar3YXtHpGxqHtWNOovm-54" value="&lt;h1&gt;4.Payment：&lt;/h1&gt;&lt;div&gt;1. After logging into the system at the opening time, each user can see his assigned drawing in the &quot;Pending Payment List&quot;.&lt;/div&gt;&lt;div&gt;2. Click to open the order and complete the transfer in the system according to the payee information.&amp;nbsp;&lt;/div&gt;&lt;div&gt;3. After confirming the payment and entering the password, the painting will be transferred to the user name and the seller will be alerted.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="221" y="-210" width="320" height="210" as="geometry" />
         </mxCell>
         <mxCell id="7ar3YXtHpGxqHtWNOovm-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#FF3333;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7ar3YXtHpGxqHtWNOovm-15" target="7ar3YXtHpGxqHtWNOovm-54">
