@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T09:12:40.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fQaCkzKXx6m_ZB3TLsVH" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-05T09:18:29.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="jN1yw5rGob0FCvPqVaag" version="20.2.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="3253" dy="2517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2889" dy="2315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -234,8 +234,8 @@
         <mxCell id="7ar3YXtHpGxqHtWNOovm-109" value="UserN" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="180.06" y="750" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7ar3YXtHpGxqHtWNOovm-110" value="&lt;h1&gt;NFT：&lt;/h1&gt;&lt;div&gt;1. Each NFT should create by our own project.&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2. The copyright royalty of each NFT: 5%&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="-370" y="580" width="320" height="100" as="geometry" />
+        <mxCell id="7ar3YXtHpGxqHtWNOovm-110" value="&lt;h1&gt;NFT：&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Creation mechanism&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Each NFT should create by our own project.&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2. The copyright royalty of each NFT: 5%&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Self-increasing mechanism:&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;The value of NFT in the platform will be self-increased by 5% after each transaction is completed, and will participate in the next transaction.&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Destruction mechanism&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;After the value reaches a certain amount (60K), the NFT can be split into multiple NFTs, and the sum of all NFTs is equal to the value of that NFT,The original NFT will be destroyed&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="570" width="320" height="270" as="geometry" />
         </mxCell>
         <mxCell id="45UfHNoMPE0ZEmJ1CxFF-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="45UfHNoMPE0ZEmJ1CxFF-43" target="45UfHNoMPE0ZEmJ1CxFF-46">
           <mxGeometry relative="1" as="geometry" />
