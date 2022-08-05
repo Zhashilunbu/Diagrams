@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T09:18:49.701Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="UeaEwrNwk0SnR4BjQgBv" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-05T09:32:46.386Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Fzzt6ztV3n5T-4gr3xG_" version="20.2.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="3253" dy="2517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3773" dy="2806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,17 +175,6 @@
             <mxPoint x="940" y="-20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7ar3YXtHpGxqHtWNOovm-68" value="Percentage of share %" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=10;fontColor=#FF3333;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="390" y="450" width="210" height="90" as="geometry">
-            <mxRectangle x="200" y="680" width="50" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7ar3YXtHpGxqHtWNOovm-69" value="User: 5% " style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" parent="7ar3YXtHpGxqHtWNOovm-68" vertex="1">
-          <mxGeometry y="30" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7ar3YXtHpGxqHtWNOovm-70" value="copyright royalty: 5%" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=10;fontColor=#FF3333;" parent="7ar3YXtHpGxqHtWNOovm-68" vertex="1">
-          <mxGeometry y="60" width="210" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="7ar3YXtHpGxqHtWNOovm-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7ar3YXtHpGxqHtWNOovm-82" target="7ar3YXtHpGxqHtWNOovm-87" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -246,7 +235,7 @@
         <mxCell id="45UfHNoMPE0ZEmJ1CxFF-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7ar3YXtHpGxqHtWNOovm-42" target="45UfHNoMPE0ZEmJ1CxFF-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="45UfHNoMPE0ZEmJ1CxFF-51" value="&lt;h1&gt;7.On Sale：&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. After put the painting &#39;on Sale&#39;, system will automatically adjust the price of the painting upward by 5%&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.&amp;nbsp;In the next day&#39;s sale, it will be sold at the new price.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="45UfHNoMPE0ZEmJ1CxFF-51" value="&lt;h1&gt;7.On Sale：&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. After put the painting &#39;on Sale&#39;, system will automatically adjust the price of the painting upward by 5%&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;In the next day&#39;s sale, it will be sold at the new price.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1530" y="220" width="320" height="165" as="geometry" />
         </mxCell>
         <mxCell id="45UfHNoMPE0ZEmJ1CxFF-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#FF6666;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="45UfHNoMPE0ZEmJ1CxFF-46" target="45UfHNoMPE0ZEmJ1CxFF-51">
@@ -254,6 +243,9 @@
             <mxPoint x="1010" y="170" as="sourcePoint" />
             <mxPoint x="1251" y="-18.119999999999663" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="45UfHNoMPE0ZEmJ1CxFF-53" value="&lt;h1&gt;Share%：&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 51, 51); font-size: 10px;&quot;&gt;No Community&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 51, 51); font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; 1. Copyright 5%&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 51, 51); font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; 2. User: 4 % ;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; color: rgb(255, 51, 51); font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 51, 51); font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; 3. Referrer 1%;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 51, 51); font-size: 10px;&quot;&gt;Community&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 51, 51); font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 51, 51); font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; 1. Copyright 4%&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 51, 51); font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; 2. Community: 2%&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 51, 51); font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; 2. User: 3 % ;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; color: rgb(255, 51, 51); font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 51, 51); font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; 3. Referrer 1%;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="320" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
