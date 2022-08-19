@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T09:17:29.988Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="XX1xH1-HZE2Il-Jffbl4" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T09:17:38.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="u1VDe-NOYFjZw9VmeWYF" version="20.2.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2012" dy="1824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -393,8 +393,13 @@
         <mxCell id="nvJWIPpb6H5WMxgTuVF_-6" value="PAY&lt;br&gt;(3, &quot;已付款&quot;)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="290" y="1500" width="110" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="nvJWIPpb6H5WMxgTuVF_-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nvJWIPpb6H5WMxgTuVF_-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="1690.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nvJWIPpb6H5WMxgTuVF_-12" value="&lt;span style=&quot;&quot;&gt;晚上12点05，吧所有未封存的和已封存的图片，并且状态时上架的，设置为未出售，预约的时候只能预约未出售的&lt;br&gt;&lt;br&gt;update t_painting set painting_transaction_status = 0&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;where painting_transaction_status = 2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;and painting_status in (0, 1)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="1730" width="350" height="73" as="geometry" />
+          <mxGeometry x="-135" y="1730" width="350" height="73" as="geometry" />
         </mxCell>
         <mxCell id="nvJWIPpb6H5WMxgTuVF_-13" value="&lt;div&gt;PaintingStatus&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-190" y="1840" width="100" height="30" as="geometry" />
