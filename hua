@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T09:11:05.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="GKYyf3kZOrH7TeX_Q8_8" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T09:17:29.988Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="XX1xH1-HZE2Il-Jffbl4" version="20.2.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1504" dy="1543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2012" dy="1824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -374,11 +374,39 @@
         <mxCell id="nvJWIPpb6H5WMxgTuVF_-4" value="YES_PAY&lt;br&gt;(1, &quot;已出售&quot;)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-10" y="1500" width="110" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="nvJWIPpb6H5WMxgTuVF_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nvJWIPpb6H5WMxgTuVF_-5" target="nvJWIPpb6H5WMxgTuVF_-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="1690" />
+              <mxPoint x="-116" y="1690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nvJWIPpb6H5WMxgTuVF_-9" value="每晚0点05分" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nvJWIPpb6H5WMxgTuVF_-8">
+          <mxGeometry x="0.0559" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nvJWIPpb6H5WMxgTuVF_-5" value="PUBLISH&lt;br&gt;(2, &quot;上架&quot;)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1500" width="110" height="110" as="geometry" />
+          <mxGeometry x="160" y="1500" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="nvJWIPpb6H5WMxgTuVF_-6" value="PAY&lt;br&gt;(3, &quot;已付款&quot;)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="290" y="1500" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nvJWIPpb6H5WMxgTuVF_-12" value="&lt;span style=&quot;&quot;&gt;晚上12点05，吧所有未封存的和已封存的图片，并且状态时上架的，设置为未出售，预约的时候只能预约未出售的&lt;br&gt;&lt;br&gt;update t_painting set painting_transaction_status = 0&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;where painting_transaction_status = 2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;and painting_status in (0, 1)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1730" width="350" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="nvJWIPpb6H5WMxgTuVF_-13" value="&lt;div&gt;PaintingStatus&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1840" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nvJWIPpb6H5WMxgTuVF_-14" value="NO_CLOSE&lt;br&gt;(1, &quot;未封存&quot;)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-171.5" y="1890" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nvJWIPpb6H5WMxgTuVF_-15" value="CLOSE&lt;br&gt;(0, &quot;已封存&quot;)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1890" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nvJWIPpb6H5WMxgTuVF_-16" value="IS_SPLIT&lt;br&gt;(2, &quot;已拆分&quot;)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1890" width="110" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
